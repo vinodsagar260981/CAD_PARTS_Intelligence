@@ -1,0 +1,68 @@
+[
+  {
+    "part_number": "BRACKET-001",
+    "product_id": "PROD-001",
+    "usage_role": "Engine Mount",
+    "quantity": 2
+  },
+  {
+    "part_number": "BRACKET-001",
+    "product_id": "PROD-002",
+    "usage_role": "Engine Mount",
+    "quantity": 2
+  },
+  {
+    "part_number": "BRACKET-002",
+    "product_id": "PROD-003",
+    "usage_role": "Gearbox Support",
+    "quantity": 2
+  },
+  {
+    "part_number": "BRACKET-003",
+    "product_id": "PROD-001",
+    "usage_role": "Sensor Mount",
+    "quantity": 1
+  },
+  {
+    "part_number": "SHAFT-001",
+    "product_id": "PROD-003",
+    "usage_role": "Power Transmission",
+    "quantity": 1
+  },
+  {
+    "part_number": "COVER-001",
+    "product_id": "PROD-003",
+    "usage_role": "Gearbox Protection",
+    "quantity": 1
+  },
+  {
+    "part_number": "PLATE-001",
+    "product_id": "PROD-004",
+    "usage_role": "Motor Mount",
+    "quantity": 1
+  },
+  {
+    "part_number": "FLANGE-001",
+    "product_id": "PROD-005",
+    "usage_role": "Hydraulic Connection",
+    "quantity": 2
+  },
+  {
+    "part_number": "HOUSING-001",
+    "product_id": "PROD-001",
+    "usage_role": "Sensor Protection",
+    "quantity": 1
+  },
+  {
+    "part_number": "SPACER-001",
+    "product_id": "PROD-004",
+    "usage_role": "Bearing Positioning",
+    "quantity": 2
+  },
+  {
+    "part_number": "MOUNT-001",
+    "product_id": "PROD-001",
+    "usage_role": "Control Unit Mount",
+    "quantity": 1
+  }
+]

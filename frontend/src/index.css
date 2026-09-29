@@ -1,0 +1,15 @@
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+html {
+  font-family: Inter, Arial, sans-serif;
+  background: #f4f6f8;
+}
+
+body {
+  min-width: 320px;
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "product_id": "PROD-001",
+    "product_name": "Engine Assembly A",
+    "product_family": "Automotive Engine",
+    "revision": "A",
+    "lifecycle_status": "Released"
+  },
+  {
+    "product_id": "PROD-002",
+    "product_name": "Engine Assembly B",
+    "product_family": "Automotive Engine",
+    "revision": "B",
+    "lifecycle_status": "Released"
+  },
+  {
+    "product_id": "PROD-003",
+    "product_name": "Powertrain Assembly A",
+    "product_family": "Automotive Powertrain",
+    "revision": "A",
+    "lifecycle_status": "Released"
+  },
+  {
+    "product_id": "PROD-004",
+    "product_name": "Industrial Motor System A",
+    "product_family": "Industrial Machinery",
+    "revision": "A",
+    "lifecycle_status": "Released"
+  },
+  {
+    "product_id": "PROD-005",
+    "product_name": "Hydraulic System A",
+    "product_family": "Hydraulic Equipment",
+    "revision": "A",
+    "lifecycle_status": "Released"
+  }
+]

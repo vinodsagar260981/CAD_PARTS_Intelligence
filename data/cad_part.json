@@ -1,0 +1,653 @@
+[
+  {
+    "part_id": "PART-0001",
+    "part_number": "BRACKET-001",
+    "part_name": "Engine Mounting Bracket",
+    "revision": "A",
+    "material": "Aluminium 6061-T6",
+    "manufacturing_process": "CNC Machining",
+    "units": "mm",
+    "geometry": {
+      "volume_mm3": 152340.5,
+      "mass_kg": 0.412,
+      "surface_area_mm2": 28450.7,
+      "bounding_box": {
+        "length_mm": 120.0,
+        "width_mm": 80.0,
+        "height_mm": 45.0
+      }
+    },
+    "features": {
+      "body_count": 1,
+      "feature_count": 18,
+      "hole_count": 8,
+      "pocket_count": 3,
+      "fillet_count": 6,
+      "chamfer_count": 2
+    },
+    "engineering": {
+      "min_wall_thickness_mm": 3.2,
+      "max_wall_thickness_mm": 12.5,
+      "critical_hole_diameter_mm": 10.0,
+      "tolerance_mm": 0.05
+    },
+    "pmi": {
+      "dimension_count": 14,
+      "gd_t_count": 6,
+      "surface_finish_count": 3
+    },
+    "lifecycle": {
+      "status": "Released",
+      "usage_count": 42,
+      "design_year": 2022,
+      "last_used_year": 2026
+    },
+    "business": {
+      "estimated_manufacturing_cost": 85.0,
+      "estimated_replacement_cost": 120.0,
+      "standard_part": false
+    },
+    "reuse": {
+      "approved_for_reuse": true,
+      "reuse_count": 18,
+      "active_products": 4,
+      "superseded_by": null,
+      "compatible_part_numbers": [
+        "BRACKET-010",
+        "MOUNT-001"
+      ]
+    },
+    "design_context": {
+      "application": "Engine mounting",
+      "functional_category": "Structural Bracket",
+      "load_type": "Static",
+      "criticality": "High",
+      "environment": "Automotive Engine Compartment"
+    }
+  },
+  {
+    "part_id": "PART-0002",
+    "part_number": "BRACKET-002",
+    "part_name": "Gearbox Support Bracket",
+    "revision": "C",
+    "material": "Aluminium 7075-T6",
+    "manufacturing_process": "CNC Machining",
+    "units": "mm",
+    "geometry": {
+      "volume_mm3": 168500.0,
+      "mass_kg": 0.455,
+      "surface_area_mm2": 30120.4,
+      "bounding_box": {
+        "length_mm": 125.0,
+        "width_mm": 82.0,
+        "height_mm": 48.0
+      }
+    },
+    "features": {
+      "body_count": 1,
+      "feature_count": 21,
+      "hole_count": 8,
+      "pocket_count": 4,
+      "fillet_count": 7,
+      "chamfer_count": 2
+    },
+    "engineering": {
+      "min_wall_thickness_mm": 3.5,
+      "max_wall_thickness_mm": 13.0,
+      "critical_hole_diameter_mm": 10.0,
+      "tolerance_mm": 0.05
+    },
+    "pmi": {
+      "dimension_count": 16,
+      "gd_t_count": 7,
+      "surface_finish_count": 3
+    },
+    "lifecycle": {
+      "status": "Released",
+      "usage_count": 67,
+      "design_year": 2021,
+      "last_used_year": 2026
+    },
+    "business": {
+      "estimated_manufacturing_cost": 110.0,
+      "estimated_replacement_cost": 145.0,
+      "standard_part": false
+    },
+    "reuse": {
+      "approved_for_reuse": true,
+      "reuse_count": 31,
+      "active_products": 6,
+      "superseded_by": null,
+      "compatible_part_numbers": [
+        "BRACKET-001",
+        "MOUNT-001"
+      ]
+    },
+    "design_context": {
+      "application": "Gearbox mounting",
+      "functional_category": "Structural Bracket",
+      "load_type": "Dynamic",
+      "criticality": "High",
+      "environment": "Automotive Powertrain"
+    }
+  },
+  {
+    "part_id": "PART-0003",
+    "part_number": "BRACKET-003",
+    "part_name": "Sensor Mounting Bracket",
+    "revision": "B",
+    "material": "Aluminium 6061-T6",
+    "manufacturing_process": "CNC Machining",
+    "units": "mm",
+    "geometry": {
+      "volume_mm3": 98200.0,
+      "mass_kg": 0.265,
+      "surface_area_mm2": 21450.0,
+      "bounding_box": {
+        "length_mm": 95.0,
+        "width_mm": 60.0,
+        "height_mm": 35.0
+      }
+    },
+    "features": {
+      "body_count": 1,
+      "feature_count": 13,
+      "hole_count": 6,
+      "pocket_count": 2,
+      "fillet_count": 4,
+      "chamfer_count": 1
+    },
+    "engineering": {
+      "min_wall_thickness_mm": 2.8,
+      "max_wall_thickness_mm": 10.0,
+      "critical_hole_diameter_mm": 8.0,
+      "tolerance_mm": 0.1
+    },
+    "pmi": {
+      "dimension_count": 11,
+      "gd_t_count": 4,
+      "surface_finish_count": 2
+    },
+    "lifecycle": {
+      "status": "Released",
+      "usage_count": 18,
+      "design_year": 2023,
+      "last_used_year": 2026
+    },
+    "business": {
+      "estimated_manufacturing_cost": 55.0,
+      "estimated_replacement_cost": 75.0,
+      "standard_part": false
+    },
+    "reuse": {
+      "approved_for_reuse": true,
+      "reuse_count": 9,
+      "active_products": 2,
+      "superseded_by": null,
+      "compatible_part_numbers": [
+        "BRACKET-001"
+      ]
+    },
+    "design_context": {
+      "application": "Sensor mounting",
+      "functional_category": "Sensor Bracket",
+      "load_type": "Static",
+      "criticality": "Medium",
+      "environment": "Automotive Engine Compartment"
+    }
+  },
+  {
+    "part_id": "PART-0004",
+    "part_number": "SHAFT-001",
+    "part_name": "Drive Shaft",
+    "revision": "D",
+    "material": "Alloy Steel 4140",
+    "manufacturing_process": "CNC Turning",
+    "units": "mm",
+    "geometry": {
+      "volume_mm3": 285600.0,
+      "mass_kg": 2.235,
+      "surface_area_mm2": 42100.0,
+      "bounding_box": {
+        "length_mm": 320.0,
+        "width_mm": 45.0,
+        "height_mm": 45.0
+      }
+    },
+    "features": {
+      "body_count": 1,
+      "feature_count": 24,
+      "hole_count": 2,
+      "pocket_count": 3,
+      "fillet_count": 8,
+      "chamfer_count": 5
+    },
+    "engineering": {
+      "min_wall_thickness_mm": 5.0,
+      "max_wall_thickness_mm": 18.0,
+      "critical_hole_diameter_mm": 12.0,
+      "tolerance_mm": 0.02
+    },
+    "pmi": {
+      "dimension_count": 22,
+      "gd_t_count": 9,
+      "surface_finish_count": 5
+    },
+    "lifecycle": {
+      "status": "Released",
+      "usage_count": 125,
+      "design_year": 2019,
+      "last_used_year": 2026
+    },
+    "business": {
+      "estimated_manufacturing_cost": 180.0,
+      "estimated_replacement_cost": 240.0,
+      "standard_part": false
+    },
+    "reuse": {
+      "approved_for_reuse": true,
+      "reuse_count": 74,
+      "active_products": 8,
+      "superseded_by": null,
+      "compatible_part_numbers": []
+    },
+    "design_context": {
+      "application": "Power transmission",
+      "functional_category": "Rotating Shaft",
+      "load_type": "Dynamic",
+      "criticality": "Critical",
+      "environment": "Automotive Powertrain"
+    }
+  },
+  {
+    "part_id": "PART-0005",
+    "part_number": "COVER-001",
+    "part_name": "Gearbox Protective Cover",
+    "revision": "B",
+    "material": "Aluminium 5052",
+    "manufacturing_process": "Sheet Metal",
+    "units": "mm",
+    "geometry": {
+      "volume_mm3": 410000.0,
+      "mass_kg": 1.107,
+      "surface_area_mm2": 95000.0,
+      "bounding_box": {
+        "length_mm": 280.0,
+        "width_mm": 180.0,
+        "height_mm": 70.0
+      }
+    },
+    "features": {
+      "body_count": 1,
+      "feature_count": 16,
+      "hole_count": 14,
+      "pocket_count": 0,
+      "fillet_count": 8,
+      "chamfer_count": 4
+    },
+    "engineering": {
+      "min_wall_thickness_mm": 1.5,
+      "max_wall_thickness_mm": 3.0,
+      "critical_hole_diameter_mm": 8.0,
+      "tolerance_mm": 0.2
+    },
+    "pmi": {
+      "dimension_count": 18,
+      "gd_t_count": 5,
+      "surface_finish_count": 2
+    },
+    "lifecycle": {
+      "status": "Released",
+      "usage_count": 53,
+      "design_year": 2020,
+      "last_used_year": 2025
+    },
+    "business": {
+      "estimated_manufacturing_cost": 65.0,
+      "estimated_replacement_cost": 90.0,
+      "standard_part": false
+    },
+    "reuse": {
+      "approved_for_reuse": false,
+      "reuse_count": 0,
+      "active_products": 1,
+      "superseded_by": "COVER-002",
+      "compatible_part_numbers": []
+    },
+    "design_context": {
+      "application": "Gearbox protection",
+      "functional_category": "Protective Cover",
+      "load_type": "Non-structural",
+      "criticality": "Medium",
+      "environment": "Industrial Gearbox"
+    }
+  },
+  {
+    "part_id": "PART-0006",
+    "part_number": "PLATE-001",
+    "part_name": "Motor Mounting Plate",
+    "revision": "A",
+    "material": "Steel AISI 1045",
+    "manufacturing_process": "CNC Milling",
+    "units": "mm",
+    "geometry": {
+      "volume_mm3": 520000.0,
+      "mass_kg": 4.082,
+      "surface_area_mm2": 112000.0,
+      "bounding_box": {
+        "length_mm": 300.0,
+        "width_mm": 220.0,
+        "height_mm": 12.0
+      }
+    },
+    "features": {
+      "body_count": 1,
+      "feature_count": 19,
+      "hole_count": 16,
+      "pocket_count": 2,
+      "fillet_count": 4,
+      "chamfer_count": 6
+    },
+    "engineering": {
+      "min_wall_thickness_mm": 8.0,
+      "max_wall_thickness_mm": 12.0,
+      "critical_hole_diameter_mm": 14.0,
+      "tolerance_mm": 0.1
+    },
+    "pmi": {
+      "dimension_count": 20,
+      "gd_t_count": 6,
+      "surface_finish_count": 3
+    },
+    "lifecycle": {
+      "status": "Released",
+      "usage_count": 91,
+      "design_year": 2022,
+      "last_used_year": 2026
+    },
+    "business": {
+      "estimated_manufacturing_cost": 140.0,
+      "estimated_replacement_cost": 185.0,
+      "standard_part": false
+    },
+    "reuse": {
+      "approved_for_reuse": true,
+      "reuse_count": 43,
+      "active_products": 7,
+      "superseded_by": null,
+      "compatible_part_numbers": [
+        "PLATE-004"
+      ]
+    },
+    "design_context": {
+      "application": "Motor mounting",
+      "functional_category": "Mounting Plate",
+      "load_type": "Static",
+      "criticality": "High",
+      "environment": "Industrial Machinery"
+    }
+  },
+  {
+    "part_id": "PART-0007",
+    "part_number": "FLANGE-001",
+    "part_name": "Hydraulic Pipe Flange",
+    "revision": "E",
+    "material": "Stainless Steel 316",
+    "manufacturing_process": "CNC Turning",
+    "units": "mm",
+    "geometry": {
+      "volume_mm3": 125000.0,
+      "mass_kg": 0.998,
+      "surface_area_mm2": 27800.0,
+      "bounding_box": {
+        "length_mm": 110.0,
+        "width_mm": 110.0,
+        "height_mm": 28.0
+      }
+    },
+    "features": {
+      "body_count": 1,
+      "feature_count": 15,
+      "hole_count": 6,
+      "pocket_count": 1,
+      "fillet_count": 3,
+      "chamfer_count": 4
+    },
+    "engineering": {
+      "min_wall_thickness_mm": 6.0,
+      "max_wall_thickness_mm": 16.0,
+      "critical_hole_diameter_mm": 12.0,
+      "tolerance_mm": 0.03
+    },
+    "pmi": {
+      "dimension_count": 17,
+      "gd_t_count": 8,
+      "surface_finish_count": 5
+    },
+    "lifecycle": {
+      "status": "Released",
+      "usage_count": 210,
+      "design_year": 2018,
+      "last_used_year": 2026
+    },
+    "business": {
+      "estimated_manufacturing_cost": 95.0,
+      "estimated_replacement_cost": 130.0,
+      "standard_part": false
+    },
+    "reuse": {
+      "approved_for_reuse": true,
+      "reuse_count": 112,
+      "active_products": 12,
+      "superseded_by": null,
+      "compatible_part_numbers": [
+        "FLANGE-004",
+        "FLANGE-007"
+      ]
+    },
+    "design_context": {
+      "application": "Hydraulic connection",
+      "functional_category": "Pipe Flange",
+      "load_type": "Pressure",
+      "criticality": "High",
+      "environment": "Hydraulic System"
+    }
+  },
+  {
+    "part_id": "PART-0008",
+    "part_number": "HOUSING-001",
+    "part_name": "Sensor Housing",
+    "revision": "C",
+    "material": "Aluminium 6061-T6",
+    "manufacturing_process": "CNC Machining",
+    "units": "mm",
+    "geometry": {
+      "volume_mm3": 345000.0,
+      "mass_kg": 0.932,
+      "surface_area_mm2": 68500.0,
+      "bounding_box": {
+        "length_mm": 180.0,
+        "width_mm": 120.0,
+        "height_mm": 85.0
+      }
+    },
+    "features": {
+      "body_count": 1,
+      "feature_count": 31,
+      "hole_count": 12,
+      "pocket_count": 6,
+      "fillet_count": 10,
+      "chamfer_count": 4
+    },
+    "engineering": {
+      "min_wall_thickness_mm": 2.5,
+      "max_wall_thickness_mm": 15.0,
+      "critical_hole_diameter_mm": 6.0,
+      "tolerance_mm": 0.05
+    },
+    "pmi": {
+      "dimension_count": 25,
+      "gd_t_count": 10,
+      "surface_finish_count": 6
+    },
+    "lifecycle": {
+      "status": "Released",
+      "usage_count": 36,
+      "design_year": 2023,
+      "last_used_year": 2026
+    },
+    "business": {
+      "estimated_manufacturing_cost": 175.0,
+      "estimated_replacement_cost": 230.0,
+      "standard_part": false
+    },
+    "reuse": {
+      "approved_for_reuse": true,
+      "reuse_count": 15,
+      "active_products": 3,
+      "superseded_by": null,
+      "compatible_part_numbers": [
+        "HOUSING-003"
+      ]
+    },
+    "design_context": {
+      "application": "Sensor protection",
+      "functional_category": "Electronic Housing",
+      "load_type": "Non-structural",
+      "criticality": "Medium",
+      "environment": "Automotive Engine Compartment"
+    }
+  },
+  {
+    "part_id": "PART-0009",
+    "part_number": "SPACER-001",
+    "part_name": "Bearing Spacer",
+    "revision": "B",
+    "material": "Stainless Steel 304",
+    "manufacturing_process": "CNC Turning",
+    "units": "mm",
+    "geometry": {
+      "volume_mm3": 68500.0,
+      "mass_kg": 0.537,
+      "surface_area_mm2": 14200.0,
+      "bounding_box": {
+        "length_mm": 60.0,
+        "width_mm": 60.0,
+        "height_mm": 30.0
+      }
+    },
+    "features": {
+      "body_count": 1,
+      "feature_count": 9,
+      "hole_count": 1,
+      "pocket_count": 1,
+      "fillet_count": 3,
+      "chamfer_count": 2
+    },
+    "engineering": {
+      "min_wall_thickness_mm": 7.0,
+      "max_wall_thickness_mm": 12.0,
+      "critical_hole_diameter_mm": 30.0,
+      "tolerance_mm": 0.02
+    },
+    "pmi": {
+      "dimension_count": 12,
+      "gd_t_count": 5,
+      "surface_finish_count": 4
+    },
+    "lifecycle": {
+      "status": "Released",
+      "usage_count": 320,
+      "design_year": 2017,
+      "last_used_year": 2026
+    },
+    "business": {
+      "estimated_manufacturing_cost": 35.0,
+      "estimated_replacement_cost": 48.0,
+      "standard_part": false
+    },
+    "reuse": {
+      "approved_for_reuse": true,
+      "reuse_count": 185,
+      "active_products": 15,
+      "superseded_by": null,
+      "compatible_part_numbers": [
+        "SPACER-002",
+        "SPACER-005"
+      ]
+    },
+    "design_context": {
+      "application": "Bearing positioning",
+      "functional_category": "Spacer",
+      "load_type": "Axial",
+      "criticality": "High",
+      "environment": "Industrial Machinery"
+    }
+  },
+  {
+    "part_id": "PART-0010",
+    "part_number": "MOUNT-001",
+    "part_name": "Control Unit Mount",
+    "revision": "D",
+    "material": "Aluminium 6061-T6",
+    "manufacturing_process": "CNC Machining",
+    "units": "mm",
+    "geometry": {
+      "volume_mm3": 175000.0,
+      "mass_kg": 0.473,
+      "surface_area_mm2": 32500.0,
+      "bounding_box": {
+        "length_mm": 130.0,
+        "width_mm": 85.0,
+        "height_mm": 50.0
+      }
+    },
+    "features": {
+      "body_count": 1,
+      "feature_count": 20,
+      "hole_count": 8,
+      "pocket_count": 3,
+      "fillet_count": 7,
+      "chamfer_count": 2
+    },
+    "engineering": {
+      "min_wall_thickness_mm": 3.4,
+      "max_wall_thickness_mm": 13.0,
+      "critical_hole_diameter_mm": 10.0,
+      "tolerance_mm": 0.05
+    },
+    "pmi": {
+      "dimension_count": 15,
+      "gd_t_count": 6,
+      "surface_finish_count": 3
+    },
+    "lifecycle": {
+      "status": "Released",
+      "usage_count": 58,
+      "design_year": 2021,
+      "last_used_year": 2026
+    },
+    "business": {
+      "estimated_manufacturing_cost": 90.0,
+      "estimated_replacement_cost": 125.0,
+      "standard_part": false
+    },
+    "reuse": {
+      "approved_for_reuse": true,
+      "reuse_count": 27,
+      "active_products": 5,
+      "superseded_by": null,
+      "compatible_part_numbers": [
+        "BRACKET-001",
+        "BRACKET-002"
+      ]
+    },
+    "design_context": {
+      "application": "Electronic control unit mounting",
+      "functional_category": "Mounting Bracket",
+      "load_type": "Static",
+      "criticality": "Medium",
+      "environment": "Automotive Engine Compartment"
+    }
+  }
+]
